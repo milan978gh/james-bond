@@ -4,5 +4,48 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
+    box-sizing: border-box;
+}
+#main{
+    font-family: Georgia, serif;
+    background-color: #fff;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #d3d3d3;
+    width: 100%;
+    max-width: 1200px;
+    height: 96vh;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 2vh auto;
+    box-shadow: 30px 0 40px rgba(0, 0, 0, .4),
+    -30px 0 40px rgba(0, 0, 0, .4);
+    overflow: hidden;
+}
+#title{
+    background-color: #f1f1f1;
+    color: #8b0000;
+    padding: 2vh 5vw;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#image{
+    display: block;
+    height: 60vh;
+}
+#image-caption{
+    color: #8b0000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2vh;
 }
